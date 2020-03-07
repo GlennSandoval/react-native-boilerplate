@@ -1,8 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, ScrollView, View, Text} from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-
 const About = () => {
   return (
     <>
@@ -13,7 +11,9 @@ const About = () => {
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>About</Text>
-              <Text style={styles.sectionDescription}>Lorem ipsum</Text>
+              <Text style={styles.sectionDescription}>
+                You are reading words on the about page
+              </Text>
             </View>
           </View>
         </ScrollView>
@@ -24,14 +24,14 @@ const About = () => {
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: Colors.lighter,
+    backgroundColor: 'whitesmoke',
   },
   engine: {
     position: 'absolute',
     right: 0,
   },
   body: {
-    backgroundColor: Colors.white,
+    backgroundColor: 'white',
   },
   sectionContainer: {
     marginTop: 32,
@@ -40,24 +40,13 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-    color: Colors.black,
+    color: 'black',
   },
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
+    color: 'slategray',
   },
 });
 
