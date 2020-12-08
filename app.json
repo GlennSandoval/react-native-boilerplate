@@ -1,4 +1,7 @@
 {
-  "name": "Boilerplate",
-  "displayName": "Boilerplate"
+  "expo": {
+    "version": "0",
+    "name": "Boilerplate",
+    "slug": "Boilerplate"
+  }
 }
